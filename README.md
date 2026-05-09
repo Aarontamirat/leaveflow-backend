@@ -4,15 +4,15 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-- Frontend: https://your-frontend.vercel.app
-- Backend API: https://your-backend.onrender.com
-- API Docs: https://your-backend.onrender.com/api-docs
+- Frontend: https://leaveflow-frontend-seven.vercel.app/
+- Backend API: https://leaveflow-backend-l4wo.onrender.com/
+- API Docs: https://leaveflow-backend-l4wo.onrender.com/api-docs/
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -32,7 +32,7 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 
 ---
 
-## 📦 Features
+## Features
 
 ### Authentication
 
@@ -61,7 +61,7 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 
 ---
 
-## 🔐 Roles
+## Roles
 
 - **Employee**
   - Create leave requests
@@ -73,7 +73,7 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 
 ---
 
-## 🧪 Installation
+## Installation
 
 ### Backend
 
