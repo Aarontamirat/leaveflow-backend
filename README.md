@@ -7,7 +7,7 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 ## Live Demo
 
 - Frontend: https://leaveflow-frontend-seven.vercel.app/
-- Backend API: https://leaveflow-backend-l4wo.onrender.com/
+- Backend API: https://leaveflow-backend-l4wo.onrender.com/api
 - API Docs: https://leaveflow-backend-l4wo.onrender.com/api-docs/
 
 ---
@@ -21,14 +21,22 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 - Axios
 - React Router
 - Lucide Icons
+- React Hot Toast
 
 ### Backend
 
 - Node.js
 - Express.js
-- PostgreSQL (Neon)
 - JWT Authentication
 - Swagger API Docs
+- Helmet
+- Express Rate Limit
+- bcryptjs
+- CORS
+
+### Database
+
+- PostgreSQL (Neon)
 
 ---
 
