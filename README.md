@@ -84,9 +84,16 @@ A full-stack Leave Management System built with React, Express.js, PostgreSQL (N
 ## Admin Account
 
 - **Email**
-  - aaron@example.com
+
+```bash
+aaron@example.com
+```
+
 - **Password**
-  - 123456
+
+```bash
+123456
+```
 
 ---
 
