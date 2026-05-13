@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: process.env.BASE_URL || "http://localhost:5000",
+        url: process.env.VITE_API_URL,
       },
     ],
     components: {
