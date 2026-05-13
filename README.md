@@ -1,4 +1,4 @@
-# LeaveFlow — Leave Management System
+# LeaveFlow - Leave Management System
 
 A full-stack Leave Management System built with React, Express.js, PostgreSQL (Neon), and TailwindCSS.
 
