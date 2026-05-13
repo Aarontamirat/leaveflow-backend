@@ -37,6 +37,12 @@ app.use("/api/auth", authRoutes);
 app.use("/api/test", testRoutes);
 app.use("/api/leaves", leaveRoutes);
 
+app.get("/api", (req, res) => {
+  res.json({
+    message: "API is working",
+  });
+});
+
 app.get("/", (req, res) => {
   res.json({
     message: "Leave Management API Running",
