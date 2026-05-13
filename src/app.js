@@ -1,5 +1,8 @@
 const express = require("express");
 const cors = require("cors");
+const helmet = require("helmet");
+
+const rateLimit = require("express-rate-limit");
 
 const swaggerUi = require("swagger-ui-express");
 
@@ -9,9 +12,21 @@ const authRoutes = require("./routes/authRoutes");
 const testRoutes = require("./routes/testRoutes");
 const leaveRoutes = require("./routes/leaveRoutes");
 
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+});
+
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.CLIENT_URL,
+    credentials: true,
+  }),
+);
+app.use(limiter);
+app.use(helmet());
 app.use(express.json());
 
 // Swagger Docs
